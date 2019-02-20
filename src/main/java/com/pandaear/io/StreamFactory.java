@@ -1,13 +1,13 @@
-package com.yuhaifeng.io;
+package com.pandaear.io;
 
-import com.yuhaifeng.info.PathInfo;
+import com.pandaear.info.PathInfo;
 
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 
 /**
- * @author: yuhaifeng
+ * @author: pandaear
  * @create: 2019-02-19 11:33
  **/
 public class StreamFactory {

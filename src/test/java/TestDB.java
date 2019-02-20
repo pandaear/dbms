@@ -1,6 +1,6 @@
-import com.yuhaifeng.handler.DataHandler;
-import com.yuhaifeng.handler.TableHandler;
-import com.yuhaifeng.model.User;
+import com.pandaear.handler.DataHandler;
+import com.pandaear.handler.TableHandler;
+import com.pandaear.model.User;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author: yuhaifeng
+ * @author: pandaear
  * @create: 2019-02-19 14:50
  **/
 public class TestDB {

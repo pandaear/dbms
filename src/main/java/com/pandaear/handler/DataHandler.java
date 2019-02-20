@@ -1,4 +1,4 @@
-package com.yuhaifeng.handler;
+package com.pandaear.handler;
 
 import com.alibaba.fastjson.JSONObject;
 
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author: yuhaifeng
+ * @author: pandaear
  * @create: 2019-02-19 14:19
  **/
 public class DataHandler <T>{

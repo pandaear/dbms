@@ -1,12 +1,12 @@
-package com.yuhaifeng.handler;
+package com.pandaear.handler;
 
-import com.yuhaifeng.info.PathInfo;
+import com.pandaear.info.PathInfo;
 
 import java.io.*;
 
 /**
  * 表操作类
- * @author: yuhaifeng
+ * @author: pandaear
  * @create: 2019-02-19 11:22
  **/
 public class TableHandler {

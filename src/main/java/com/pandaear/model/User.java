@@ -1,7 +1,7 @@
-package com.yuhaifeng.model;
+package com.pandaear.model;
 
 /**
- * @author: yuhaifeng
+ * @author: pandaear
  * @create: 2019-02-19 14:55
  **/
 public class User {

@@ -1,7 +1,7 @@
-package com.yuhaifeng.info;
+package com.pandaear.info;
 
 /**
- * @author: yuhaifeng
+ * @author: pandaear
  * @create: 2019-02-19 11:23
  **/
 public class PathInfo {
