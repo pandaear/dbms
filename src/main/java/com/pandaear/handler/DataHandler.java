@@ -63,7 +63,7 @@ public class DataHandler <T>{
 	}
 
 	/**
-	 * 插叙所有数据
+	 * 插入所有数据
 	 * @param tableHandler
 	 * @return
 	 */

@@ -15,20 +15,14 @@ import java.util.Map;
 public class TestDB {
 	public static void main(String[] args) {
 		TableHandler usersHandler = new TableHandler("users");
-		User user1 = new User(1L, "小李", 17);
-		User user2 = new User(2L, "小飞", 18);
-		User user3 = new User(3L, "小月", 19);
 		DataHandler<User> userDataHandler = new DataHandler<>();
 		ArrayList<User> list = new ArrayList<>();
-		for(int i = 0;i<10;i++){
-			list.add(user1);
-			list.add(user2);
-			list.add(user3);
-		}
-		userDataHandler.saveData(user2,usersHandler);
-		userDataHandler.saveData(user3,usersHandler);
-		userDataHandler.saveList(list,usersHandler);
 
+		for(long i = 0;i<1000000;i++){
+			User user = new User(i, "小李", 17);
+			list.add(user);
+		}
+		userDataHandler.saveList(list,usersHandler);
 	}
 	@Test
 	public void testSelectAll(){
@@ -51,8 +45,9 @@ public class TestDB {
 		TableHandler usersHandler = new TableHandler("users");
 		DataHandler<User> userDataHandler = new DataHandler<>();
 		Map<String, Object> params = new HashMap<>();
-		params.put("name","小飞");
+		//params.put("name","小李");
 		//params.put("age",17);
+		params.put("id",1);
 		System.out.println(userDataHandler.selectByParams(params, usersHandler));
 	}
 }
